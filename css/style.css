@@ -1,0 +1,262 @@
+/* <!-- solar system -->
+body{
+    background-color: black;
+}
+
+.orbit-earth{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    animation-name: animearth;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.sun{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.orbit-moon{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    top:28px;
+    left: 28px;
+    animation-name: animmoon;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.earth{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.moon{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: gray;
+    border-radius: 50%;
+    top: 10px;
+    left: -5px;
+}
+
+@keyframes animearth{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+@keyframes animmoon{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+} */
+
+/*Media query*/
+
+
+/* *{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+div[class*="col-"]{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.color1{
+    background: red;
+    height: 150px;
+}
+
+.color2{
+    background: black;
+    height: 150px;
+}
+
+.color3{
+    background: green;
+    height: 150px;
+}
+
+.color4{
+    background: blue;
+    height: 150px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+p,h1{
+    font-size: 25px;
+    margin: 50px
+}
+
+h1{
+    display: none;
+} */
+
+/* @media screen and (max-width: 900px){
+    .color1{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .color1{
+        background-color: yellow;
+    }
+} */
+
+/* @media print{
+    p{
+        display: none;
+    }
+    h1{
+        display: block;
+        color: red
+    }
+} */
+
+/* @media screen and (max-width: 768px){
+    .col-m-1{
+        width: 8.33%;
+    }
+    
+    .col-m-2{
+        width: 16.66%;
+    }
+    
+    .col-m-3{
+        width: 25%;
+    }
+    
+    .col-m-4{
+        width: 33.33%;
+    }
+    
+    .col-m-5{
+        width: 41.66%;
+    }
+    
+    .col-m-6{
+        width: 50%;
+    }
+    
+    .col-m-7{
+        width: 58.33%;
+    }
+    
+    .col-m-8{
+        width: 66.66%;
+    }
+    
+    .col-m-9{
+        width: 75%;
+    }
+    
+    .col-m-10{
+        width: 83.33%;
+    }
+    
+    .col-m-11{
+        width: 91.66%;
+    }
+    
+    .col-m-12{
+        width: 100%;
+    }
+    .color2{
+        visibility: hidden;
+    }
+
+    .color1{
+        font-size: 45px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    .color2{
+        visibility: visible;
+    }
+    .color1{
+        font-size: 16px;
+        display: none;
+    }
+} */
